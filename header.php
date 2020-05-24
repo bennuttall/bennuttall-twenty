@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <link href="<?php timestamped_stylesheet(); ?>" rel="stylesheet" />
+    <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/finn.jpg" type="image/x-icon">
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/images/finn.jpg" type="image/x-icon">
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>

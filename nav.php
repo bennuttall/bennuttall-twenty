@@ -1,12 +1,4 @@
-<div class="top-bar-right">
-  <ul class="menu">
-    <li><a class="button" href="https://www.piwheels.org/packages.html">Packages</a></li>
-    <li><a class="button" href="https://github.com/piwheels/packages/issues">Package Issues</a></li>
-	<li><a class="button" href="https://www.piwheels.org/faq.html">FAQ</a></li>
-	<li><a class="button" href="https://www.piwheels.org/stats.html">Stats</a></li>
-	<li><a class="button secondary" href="/">Blog</a></li>
-	<li><a class="button" href="https://github.com/piwheels">GitHub</a></li>
-	<li><a class="button" href="https://piwheels.readthedocs.io/">Documentation</a></li>
-	<li><a class="button" href="https://twitter.com/piwheels">Twitter</a></li>
-  </ul>
-</div>
+<ul>
+  <?php wp_nav_menu(); ?>
+</ul>
+<div style="clear: both;"></div>
